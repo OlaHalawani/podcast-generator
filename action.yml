@@ -11,8 +11,8 @@ input:
   email: 
     description: the commiter's email address
     required: true
-    default: ${{ GITHUB.ACTOR }}@localhost
+    default: ${{ GITHUB_ACTOR }}@localhost
   name:
     description: the commiter's email address
     required: true
-    default: ${{ GITHUB.ACTOR }}
+    default: ${{ GITHUB_ACTOR }}
