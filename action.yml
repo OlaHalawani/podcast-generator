@@ -3,7 +3,7 @@ author: 'Ola Halawani'
 description: 'Generates a feed for a podcast'
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'Dockerfile:latest'  # Specify the actual image name
 branding:
   icon: 'git-branch'
   color: 'red'
