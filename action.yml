@@ -16,3 +16,8 @@ inputs:
     description: "The committer's name"
     required: true
     default: ${{ github.actor }} 
+container:
+  image: ghcr.io/owner/image
+  credentials:
+     username: ${{ github.actor }}
+     password: ${{ secrets.ghcr_token }}
